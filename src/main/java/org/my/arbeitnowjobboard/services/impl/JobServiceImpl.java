@@ -1,14 +1,12 @@
 package org.my.arbeitnowjobboard.services.impl;
 
 import lombok.AccessLevel;
-import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import org.my.arbeitnowjobboard.entities.Job;
 import org.my.arbeitnowjobboard.repositories.JobRepository;
 import org.my.arbeitnowjobboard.services.JobService;
 import org.my.arbeitnowjobboard.utils.JobResponse;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
